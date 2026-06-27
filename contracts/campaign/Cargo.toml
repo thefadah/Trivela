@@ -12,11 +12,11 @@ crate-type = ["cdylib", "rlib"]
 doctest = false
 
 [dependencies]
-soroban-sdk = "25.1"
+soroban-sdk = "26.1"
 trivela-nullifier-registry = { path = "../nullifiers" }
 
 [dev-dependencies]
-soroban-sdk = { version = "25.1", features = ["testutils"] }
+soroban-sdk = { version = "26.1", features = ["testutils"] }
 trivela-nullifier-registry = { path = "../nullifiers" }
 proptest = "1.4"
 
